@@ -4,7 +4,7 @@ marytts-lang-ko
 Initial support for Korean text to speech
 - Korean phonemes (allophones)
 - Hangul (standard Korean script) to phonemes
-- basic Hanja (Ideograms) to Hangul (~7500 characters, no disambiguation such a$
+- basic Hanja (Ideograms) to Hangul (~7500 characters, no disambiguation such as Kim-keum)
 - numbers / dates spoken (adaptation of the marytts preprocessor)
 - Latin alphabet words are spelled out
 
