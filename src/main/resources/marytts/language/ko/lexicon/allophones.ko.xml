@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<allophones features="vlng vheight vfront vrnd ctype cplace cvox"
+	name="sampa" xml:lang="ko">
+	
+	<silence ph="_" />
+	
+	<consonant cplace="b" ctype="n" cvoice="+" ph="m" />
+	<consonant cplace="b" ctype="s" cvoice="-" ph="p" />
+	<consonant cplace="b" ctype="s" cvoice="-" ph="p!" />
+	<consonant cplace="b" ctype="s" cvoice="-" ph="ph" />
+	<consonant cplace="a" ctype="s" cvoice="-" ph="t" />
+	<consonant cplace="a" ctype="s" cvoice="-" ph="t^" />
+	<consonant cplace="a" ctype="s" cvoice="-" ph="th" />
+	<consonant cplace="a" ctype="n" cvoice="+" ph="n" />
+	<consonant cplace="a" ctype="s" cvoice="+" ph="j" />
+	<consonant cplace="a" ctype="s" cvoice="-" ph="jh" />
+	<consonant cplace="a" ctype="s" cvoice="+" ph="j!" />
+	<consonant cplace="v" ctype="s" cvoice="-" ph="k" />
+	<consonant cplace="v" ctype="s" cvoice="-" ph="k!" />
+	<consonant cplace="v" ctype="s" cvoice="-" ph="kh" />
+	<consonant cplace="v" ctype="n" cvoice="+" ph="N" />
+	<consonant cplace="a" ctype="f" cvoice="-" ph="s" />
+	<consonant cplace="a" ctype="f" cvoice="-" ph="s!" />
+	<consonant cplace="g" ctype="f" cvoice="-" ph="h" />
+	<consonant cplace="v" ctype="r" cvoice="+" ph="M\" />
+	<consonant cplace="u" ctype="r" cvoice="-" ph="y" />
+	<consonant cplace="v" ctype="r" cvoice="-" ph="w" />
+	<consonant cplace="v" ctype="r" cvoice="-" ph="H" />
+	<consonant cplace="b" ctype="s" cvoice="-" ph="p|" />
+	<consonant cplace="v" ctype="s" cvoice="-" ph="k|" />
+	<consonant cplace="a" ctype="s" cvoice="-" ph="t|" />
+	<consonant cplace="a" ctype="l" cvoice="+" ph="l" />
+	<consonant cplace="v" ctype="s" cvoice="+" ph="g" />
+	<consonant cplace="a" ctype="s" cvoice="+" ph="d" />
+	<consonant cplace="g" ctype="f" cvoice="+" ph="h\" />
+	<consonant cplace="a" ctype="l" cvoice="-" ph="4" />
+	<consonant cplace="a" ctype="f" cvoice="-" ph="s\" />
+	<consonant cplace="a" ctype="f" cvoice="-" ph="s\!" />
+	
+	<vowel ph="e" vfront="1" vheight="2" vlng="s" vrnd="-" />
+	<vowel ph="i" vfront="1" vheight="1" vlng="s" vrnd="-" />
+	<vowel ph="E" vfront="1" vheight="2" vlng="s" vrnd="-" />
+	<vowel ph="a" vfront="1" vheight="3" vlng="s" vrnd="-" />
+	<vowel ph="o" vfront="3" vheight="2" vlng="s" vrnd="+" />
+	<vowel ph="u" vfront="3" vheight="1" vlng="s" vrnd="+" />
+	<vowel ph="V" vfront="3" vheight="2" vlng="s" vrnd="-" />
+	<vowel ph="M" vfront="3" vheight="1" vlng="s" vrnd="-" />
+	<vowel ph="2" vfront="1" vheight="2" vlng="s" vrnd="+" />
+</allophones>
