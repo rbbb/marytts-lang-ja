@@ -9,3 +9,5 @@ Initial support for Korean text to speech
 - Latin alphabet words are spelled out
 
 License: LGPL 3.0 with a Seunghee loves robots clause, released on her birthday.
+         the Hanja pronunciation dictionary has been extracted from wikipedia/wiktionary 
+         and is subject to its own license (same as wikipedia/wiktionary)
