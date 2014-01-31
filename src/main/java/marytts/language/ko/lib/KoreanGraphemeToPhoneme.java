@@ -434,11 +434,11 @@ public class KoreanGraphemeToPhoneme {
 		case 'ㅔ': return "e";
 		case 'ㅕ': return "y V";
 		case 'ㅖ': return "y e";
-		case 'ㅗ': return "O";
+		case 'ㅗ': return "o";
 		case 'ㅘ': return "w a";
 		case 'ㅙ': return "w E";
 		case 'ㅚ': return "2";
-		case 'ㅛ': return "y O";
+		case 'ㅛ': return "y o";
 		case 'ㅜ': return "u";
 		case 'ㅝ': return "w V";
 		case 'ㅞ': return "w e";

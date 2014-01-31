@@ -62,6 +62,7 @@ public class KoreanPhonemes {
 		consonants.add(XSampa.findConsonantByIPA("l"));
 
 		//medial
+		consonants.add(XSampa.findConsonantByIPA("b"));//p in the middle of a word
 		consonants.add(XSampa.findConsonantByIPA("g"));//k in the middle of a word
 		consonants.add(XSampa.findConsonantByIPA("d"));//t in the middle of a word
 		consonants.add(XSampa.findConsonantByIPA("ɦ"));//h in the middle of a word

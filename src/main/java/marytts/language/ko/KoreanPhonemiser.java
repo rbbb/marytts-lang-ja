@@ -78,7 +78,7 @@ public class KoreanPhonemiser extends InternalModule
                 if (t.hasAttribute("ph") &&
                     !t.getAttribute("ph").contains("*")) {
                     continue;
-                }
+                } 
                 if (t.hasAttribute("sounds_like"))
                     text = t.getAttribute("sounds_like");
                 else
@@ -145,7 +145,7 @@ public class KoreanPhonemiser extends InternalModule
      */
     public String phonemise(String text, String pos, StringBuilder g2pMethod)
     {
-    	g2pMethod.append("rules-only");
+    	g2pMethod.append("rules");
     	return KoreanGraphemeToPhoneme.extractPhonemes(text, hanjaDictionary);
     }
     
