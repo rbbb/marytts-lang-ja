@@ -4,7 +4,7 @@ marytts-lang-ko
 Initial support for Korean text to speech
 
 Supports the following:
-- allophones (phonemes) for Korean, no long vowels (would require semantic information), no complex phonemes (such a h morphing) as it is left to the HMM to differentiate them
+- allophones (phonemes) for Korean, no long vowels (would require semantic information, barely differentiated in modern Korean), no complex phonemes (such a h morphing) as it is left to the HMM to differentiate them
 - hangul (Korean script) to phonemes
 - hanja (Sino-Korean ideograms) pronunciation, no pronunciation disambiguation (suc as Kim in names becomes keum in nouns, as this would require semantic information)
 - support for basic date/time/number expansion
