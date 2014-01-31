@@ -46,7 +46,7 @@ public class KoreanGraphemeToPhoneme {
 
 			if(CharacterClasses.isPunctuation(currChar) || !CharacterClasses.isPureKoreanChar(currChar))
 			{
-				//we are at word boundary, process the cho (bottom) part
+				//we are at word boundary, process the jong (bottom) part
 				//of the previous character with end of word pronunciation rules
 				//most mixed consonants (ps, lm) should not occur but are handled anyways
 				String finalPhoneme=null;
