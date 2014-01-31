@@ -8,6 +8,7 @@ Supports the following:
 - hangul (Korean script) to phonemes
 - hanja (Sino-Korean ideograms) pronunciation, no pronunciation disambiguation (suc as Kim in names becomes keum in nouns, as this would require semantic information)
 - support for basic date/time/number expansion
+- spells out Latin alphabet text
 
 License: 
 
