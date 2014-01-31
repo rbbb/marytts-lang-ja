@@ -458,6 +458,8 @@ public class KoreanGraphemeToPhoneme {
 		//TODO: has many more cases than this but would weaken the feature space of analyzable phonemes
 		//for example, add consonant for tchi, this might get detected by the HMM phoneme waveform tree
 		String vowelPhoneme = " "+getVowelPhoneme(middleVowel);
+		boolean isIVowel = vowelPhoneme.trim().equals("i");
+		boolean isYVowel = vowelPhoneme.trim().startsWith("y");
 
 		switch(consonant)
 		{
@@ -476,14 +478,14 @@ public class KoreanGraphemeToPhoneme {
 		case 'ㅂ': return (wordStart?"p":"b")+vowelPhoneme;
 		case 'ㅃ': return "p!"+vowelPhoneme;
 		case 'ㅅ': 
-			if(vowelPhoneme.trim().startsWith("i") || vowelPhoneme.trim().startsWith("y"))
+			if(isIVowel || isYVowel)
 			{
 				return "s\\"+vowelPhoneme;
 			}else{
 				return "s"+vowelPhoneme;
 			}
 		case 'ㅆ':
-			if(vowelPhoneme.trim().startsWith("i") || vowelPhoneme.trim().startsWith("y"))
+			if(isIVowel || isYVowel)
 			{
 				return "s\\!"+vowelPhoneme;
 			}else{
@@ -498,7 +500,7 @@ public class KoreanGraphemeToPhoneme {
 		case 'ㅋ':
 			return "kh"+vowelPhoneme;
 		case 'ㅌ':
-			return vowelPhoneme.equals("i")?"jhi":"th"+vowelPhoneme;
+			return (isIVowel || isYVowel)?"jh":"th"+vowelPhoneme;
 		case 'ㅍ':
 			return "ph"+vowelPhoneme;
 		case 'ㅎ':
