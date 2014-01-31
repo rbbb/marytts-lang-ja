@@ -18,7 +18,6 @@
 
 package marytts.language.ko.lib;
 
-
 public class KoreanGraphemeToPhoneme {
 
 	private static final char NO_CHAR = ' ';
@@ -26,7 +25,6 @@ public class KoreanGraphemeToPhoneme {
 	{
 		//TODO: to add dictionary based lengthening, add another stream marking the syllables
 		//for which vowels have to be lengthened, and modify the phoneme computations
-		//TODO: chicken exception
 
 		boolean wordStart = false;
 		boolean wordMiddle = false;
@@ -43,6 +41,12 @@ public class KoreanGraphemeToPhoneme {
 		for(int i=0;i<analyzedPhrase.length();i++)
 		{
 			char currChar = analyzedPhrase.charAt(i);
+			
+			//chicken exception: should be talki but is pronounced taki
+			if(analyzedPhrase.startsWith("닭이",i))
+			{
+				currChar = '닥';
+			}
 
 			if(CharacterClasses.isPunctuation(currChar) || !CharacterClasses.isPureKoreanChar(currChar))
 			{
@@ -553,5 +557,4 @@ public class KoreanGraphemeToPhoneme {
 		String phoneme;
 		char consonant;
 	}
-
 }
