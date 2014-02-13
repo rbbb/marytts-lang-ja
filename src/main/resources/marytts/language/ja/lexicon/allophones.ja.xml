@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<allophones features="vlng vheight vfront vrnd ctype cplace cvox"
+	name="sampa" xml:lang="ja">
+	<silence ph="_" />
+	<!--かくれこころのかけら [k] -->
+	<consonant cplace="v" ctype="s" cvoice="-" ph="k" />
+	<!--っか [kk] -->
+	<consonant cplace="v" ctype="s" cvoice="-" ph="kk" />
+	<!--がぎぐ～げご [g] -->
+	<consonant cplace="v" ctype="s" cvoice="+" ph="g" />
+	<!--っぐ [gg] -->
+	<consonant cplace="v" ctype="s" cvoice="+" ph="gg" />
+	<!--ささきせんせい [s] -->
+	<consonant cplace="a" ctype="f" cvoice="-" ph="s" />
+	<!--っせ [s] -->
+	<consonant cplace="a" ctype="f" cvoice="-" ph="ss" />
+	<!--ぞうのぞうはzooでじ [z] -->
+	<consonant cplace="a" ctype="f" cvoice="+" ph="z" />
+	<!--っぜ [z] -->
+	<consonant cplace="a" ctype="f" cvoice="+" ph="zz" />
+	<!--じじ [ʑ or d͡ʑ] -->
+	<consonant cplace="a" ctype="s" cvoice="+" ph="z\" />
+	<!--っじ [ddʑ] -->
+	<consonant cplace="a" ctype="s" cvoice="+" ph="_dz\" />
+	<!--しゃしゅしゃしん [ɕ] -->
+	<consonant cplace="a" ctype="f" cvoice="-" ph="s\" />
+	<!--っしょ [_ɕ] -->
+	<consonant cplace="a" ctype="f" cvoice="-" ph="_s\" />
+	<!--たたないというよりたてないて [t] -->
+	<consonant cplace="a" ctype="s" cvoice="-" ph="t" />
+	<!--った [tt] -->
+	<consonant cplace="a" ctype="s" cvoice="-" ph="tt" />
+	<!--むだだなのでだめだ [d] -->
+	<consonant cplace="a" ctype="s" cvoice="+" ph="d" />
+	<!--っだ [dd] -->
+	<consonant cplace="a" ctype="s" cvoice="+" ph="dd" />
+	<!--ちちゃんちょう～ちゃない [tɕ] -->
+	<consonant cplace="a" ctype="s" cvoice="-" ph="ts\" />
+	<!--っちゃ [_tɕ] -->
+	<consonant cplace="a" ctype="s" cvoice="-" ph="tts\" />
+	<!--つつみいつつ [ts] -->
+	<consonant cplace="a" ctype="s" cvoice="-" ph="ts" />
+	<!--っつ [_ts] -->
+	<consonant cplace="a" ctype="s" cvoice="-" ph="tts" />
+	<!--ばななアイスのむなのにねねない [n] -->
+	<consonant cplace="a" ctype="n" cvoice="+" ph="n" />
+	<!--ほほキスほうほう、ほちきすとおなじあほ [h] -->
+	<consonant cplace="g" ctype="f" cvoice="-" ph="h" />
+	<!--ペラペラ君ピンポンぽい [p] -->
+	<consonant cplace="b" ctype="s" cvoice="-" ph="p" />
+	<!--っぱ [_p] -->
+	<consonant cplace="b" ctype="s" cvoice="-" ph="pp" />
+	<!--アリス、ばらぼろぼろばれちゃうよ [b] -->
+	<consonant cplace="b" ctype="s" cvoice="+" ph="b" />
+	<!--っば [_b] -->
+	<consonant cplace="b" ctype="s" cvoice="+" ph="bb" />
+	<!--ふふふふふ (爆）[ɸ] -->
+	<consonant cplace="b" ctype="f" cvoice="-" ph="p\" />
+	<!--まもるままにマリモおまもりもてまりました [m] -->
+	<consonant cplace="b" ctype="n" cvoice="+" ph="m" />
+	<!--にゃんにゃん、よいようやくぎゅっとやってきました [j] -->
+	<consonant cplace="u" ctype="r" cvoice="-" ph="j" />
+	<!--リリース （げんそうてき） [ɾ] -->
+	<consonant cplace="a" ctype="l" cvoice="-" ph="4" />
+	<!--わんわんはわににくわれた [w] -->
+	<consonant cplace="v" ctype="r" cvoice="-" ph="w" />
+	<!--あんぱんまんじゃん [ŋ] -->
+	<consonant cplace="v" ctype="n" cvoice="+" ph="N" />
+	<!--ヴォドカヴルストヴォイス [v] -->
+	<consonant cplace="v" ctype="f" cvoice="+" ph="v" />
+
+	<!--かなだらまぱさじゃちゃかたぱは [a] -->
+	<vowel ph="a" vfront="1" vheight="3" vlng="s" vrnd="-" />
+	<!--いきいきこいい [i] -->
+	<vowel ph="i" vfront="1" vheight="1" vlng="s" vrnd="-" />
+	<!--ゆるゆるつくるくくるできる[u] -->
+	<vowel ph="u" vfront="3" vheight="1" vlng="s" vrnd="+" />
+<!---->
+	<vowel ph="e" vfront="1" vheight="2" vlng="s" vrnd="-" />
+<!---->
+	<vowel ph="o" vfront="3" vheight="2" vlng="s" vrnd="+" />
+</allophones>
+
