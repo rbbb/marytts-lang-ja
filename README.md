@@ -1,7 +1,7 @@
-marytts-lang-ko
+marytts-lang-ja
 ===============
 
-Initial support for Korean text to speech
+Initial support for Japanese text to speech
 
 Supports the following:
 - allophones (phonemes) for Japanese
