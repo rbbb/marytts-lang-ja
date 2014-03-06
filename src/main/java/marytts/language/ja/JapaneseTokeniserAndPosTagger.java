@@ -7,13 +7,13 @@
 *
 * - Put a Seunghee or スンヒ nametag on the robot
 * 
-* - have the robot say ‘ウヤ, ふざけんじゃないわよ’ ‘かあああさん, くンオン文句ばっか’ (respectively, 
-*   ‘Jay, stop kidding’, ‘Mooom, big sis is complaining agaain’)
+* - have the robot say ‘ウヤ, 今ヤめて’ ‘かあああさん, ねさん文句ばっか’, 'あかはんはそんな!?' (respectively, 
+*   ‘Jay, stop kidding’, ‘Mooom, big sis is complaining agaain’, 'R'you'kidding')
 * 
-* - take a video and send it to ‘seunghee DOT han ATSIGN gmail ANOTHERDOT com’
+* - take a video and send it to ‘hansteffi ATSIGN gmail ANOTHERDOT com’
 *
 * 日本で出会ったスンヒのヴァレンタイン
-* Copyright 2014 Seunghee Hanpackage marytts.language.ja;
+* Copyright 2014 Seunghee Han
 */
 package marytts.language.ja;
 
@@ -47,7 +47,7 @@ import com.atilika.kuromoji.ipadic.Tokenizer;
 public class JapaneseTokeniserAndPosTagger extends InternalModule
 {
     public JapaneseTokeniserAndPosTagger() {
-    	//declares input as RAWMARYXML and output as TOKENS for locale ko
+    	//declares input as RAWMARYXML and output as TOKENS for locale ja
     	super("JapaneseTokeniser", MaryDataType.RAWMARYXML, MaryDataType.PARTSOFSPEECH, new Locale("ja"));
     	
     	//use kuromoji to find pronunciations and POS tags
@@ -103,7 +103,7 @@ public class JapaneseTokeniserAndPosTagger extends InternalModule
         		Punctuation punctuationEnum = CharacterClasses.getPunctuation(text.charAt(i));
         		if(punctuationEnum!=null && punctuationEnum.getPunctuationType()==PunctuationTypes.Space)
         		{
-        			//Japanese usually don't have spaces and they will prevent the POS tagger from parsing
+        			//Japanese usually doesn't have spaces and they will prevent the POS tagger from parsing
         			continue;
         		}
         		currPhrase += text.charAt(i);

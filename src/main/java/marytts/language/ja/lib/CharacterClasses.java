@@ -10,7 +10,7 @@
 * - have the robot say ‘ウヤ, 今ヤめて’ ‘かあああさん, ねさん文句ばっか’, 'あかはんはそんな!?' (respectively, 
 *   ‘Jay, stop kidding’, ‘Mooom, big sis is complaining agaain’, 'R'you'kidding')
 * 
-* - take a video and send it to ‘seunghee DOT han ATSIGN gmail ANOTHERDOT com’
+* - take a video and send it to ‘hansteffi ATSIGN gmail ANOTHERDOT com’
 *
 * 日本で出会ったスンヒのヴァレンタイン
 * Copyright 2014 Seunghee Han
